@@ -1,2 +1,1 @@
-# tinDog-website
- Small website which is created with bootstrap.
+TinDog Starting Files
