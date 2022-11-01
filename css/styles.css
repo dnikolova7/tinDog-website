@@ -2,24 +2,27 @@ body {
   font-family: "Montserrat";
   margin: 0;
 }
+
 #title {
   background-color: #ff4c68;
   color: white;
-
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/* Headings */
+.big-heading {
   font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-
-}
-
-h2 {
-  font-family: "Montserrat-Bold";
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .container-fluid {
@@ -27,10 +30,8 @@ h2 {
 }
 
 /* Navigation bar */
-
 .navbar {
   padding: 0 0 4.5rem;
-
 }
 
 .navbar-brand {
@@ -49,32 +50,29 @@ h2 {
 }
 
 /* Download buttons */
-
 .download-button {
   margin: 5% 3% 5% 0%;
 }
 
 /* title image */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  /* z-index: -1; */
   position: absolute;
   right: 25%;
-
 }
 
 /* Features */
 #features {
   background-color: white;
   position: relative;
-  /* z-index: 1; */
+  text-align: center;
 }
 
 .imagedog {
   position: relative;
 }
+
 p {
   color: #8f8f8f;
 }
@@ -83,13 +81,17 @@ p {
   color: #ef8172;
 }
 
-.icon:hover{
+.icon:hover {
   color: #ff4c68;
 }
 
 h3 {
-  font-family: "Montserrat-Bold";
-  font-size: 1.5rem;
+  font-size: 1.0rem;
+}
+
+.features-text {
+  font-weight: 900;
+font-size: 1.7rem;
 }
 
 .text-row {
@@ -97,10 +99,10 @@ h3 {
   align-content: center;
   padding-top: 7%;
   padding-bottom: 7%;
+  margin-right: 0;
 }
 
 /* Testimonials */
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -129,7 +131,6 @@ h3 {
 }
 
 /* Pricing Section */
-
 #pricing {
   padding: 5%;
   text-align: center;
@@ -140,7 +141,6 @@ h3 {
 }
 
 /* Call to action */
-
 #cta {
   background-color: #ff4c68;
   text-align: center;
@@ -157,10 +157,10 @@ h3 {
 }
 
 .buttons-bottom {
-padding-bottom: 40px;
+  padding-bottom: 40px;
 }
-/* Footer */
 
+/* Footer */
 #footer {
   background-color: white;
   text-align: center;
@@ -168,7 +168,6 @@ padding-bottom: 40px;
 
 .social-media {
   padding: 50px;
-
 }
 
 .twitter {
@@ -192,12 +191,12 @@ padding-bottom: 40px;
 }
 
 @media (max-width: 1028px) {
-#title {
-  text-align: center;
-}
+  #title {
+    text-align: center;
+  }
 
   .title-image {
     position: static;
-transform: rotate(0);
+    transform: rotate(0);
   }
 }
