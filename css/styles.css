@@ -159,6 +159,37 @@ h3 {
 .buttons-bottom {
 padding-bottom: 40px;
 }
+/* Footer */
+
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.social-media {
+  padding: 50px;
+
+}
+
+.twitter {
+  padding-right: 17px;
+}
+
+.facebook {
+  padding-right: 17px;
+}
+
+.instagram {
+  padding-right: 17px;
+}
+
+.email {
+  padding-right: 17px;
+}
+
+.copyright {
+  padding-bottom: 50px;
+}
 
 @media (max-width: 1028px) {
 #title {
